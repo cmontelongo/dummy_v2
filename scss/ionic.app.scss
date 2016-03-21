@@ -1,0 +1,114 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+$stable: #044b61;
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+.bar.bar-stable {
+    border-color: #044b61;
+};
+
+.bar.bar-stable .title {
+    color: white;
+};
+
+.listado-principal {
+    background-color: #F5F5F5; //#32ADBC;
+}
+
+.listado {
+  background-color: #F5F5F5;
+  color: #444;
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin: -1px;
+  padding: 16px;
+  border-width: 0px;
+  border-style: solid;
+  font-size: 16px;
+}
+
+
+.title-white {
+    color: white;
+}
+
+.login-bkg {
+  background-color: #044b61; }
+
+.logo {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-image: "/#/img/logo1.png"; }
+
+
+.rounded{
+    border-radius:10px;
+};
+
+
+.input-disabled {
+  pointer-events: none;
+}
+
+.ion-input {
+  font-size:1.25rem;
+  text-indent:10px;
+  padding:.5rem 0;
+}
+
+.ion-input-select,
+select {
+  //-webkit-appearance:none;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0);  
+  border:thin solid #dddddd;
+  font-weight:300;
+  display:inline;
+  vertical-align:middle;
+  color:#333;
+  padding: auto 0;
+  overflow:hidden;
+  box-sizing:border-box;
+
+}
+
+.ion-input-select {
+  width:98%;
+  font-size:1.25rem;
+  //background-image: url(http://i.imgur.com/nA9xx1X.png);
+  text-indent:10px;
+  padding:.5rem 0;
+}
+
+option {
+  background:#444;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+:focus {
+  outline:none;
+}

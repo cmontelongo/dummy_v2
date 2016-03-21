@@ -1,0 +1,21 @@
+<ion-view view-title="" cache-view="false">
+	<ion-content class="login-bkg">
+            <div class="padding logo">
+                <img src="img/logo1.png" />
+            </div>
+		<div class="list card rounded">
+			<div class="item item-input">
+				<input type="text" placeholder="Usuario"
+					ng-model="credentials.user">
+			</div>
+			<div class="item item-input">
+				<input type="password" placeholder="Password"
+					ng-model="credentials.password">
+			</div>
+		</div>
+		<div class="padding">
+			<button class="button button-block button-positive rounded"
+				ng-click="login()" style="background-color:rgb(249, 171, 2)">Login</button>
+		</div>
+	</ion-content>
+</ion-view>
